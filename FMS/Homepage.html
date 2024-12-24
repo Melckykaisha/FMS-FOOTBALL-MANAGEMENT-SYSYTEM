@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tournament Home</title>
+    <link rel="stylesheet" type="text/css" href="css/Style.css?v=2">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="main">
+        <div class="header"></div>
+        <!-- Navigation Bar -->
+        <nav>
+            <ul>
+                <li><a href="admin_login.html">Admins</a></li>
+                <li><a href="match_results.php">Match Results</a></li>
+                <li><a href="standings.php">Standings</a></li>   
+            </ul>
+        </nav>
+
+        <!-- Main Content -->
+        <section class="main-content">
+            <h1>MFT</h1>
+            <h2>MASHEMEJI FOOTBALL TOURNAMENT</h2>
+            <p>Welcome to the Mashemeji Football Tournament! Experience the thrill, passion, </p>
+            <p>and rivalry as teams battle for glory in this epic football showdown. Let’s play!</p>
+        </section>
+        <!-- Fixture Section -->
+        <h3>FIXTURES</h3>
+        <div id="fixtures">
+            <!-- Fixtures will be dynamically populated here -->
+        </div>
+    </section>
+
+    <script>
+        // Fetch fixtures from the PHP file
+        fetch('generate_fixtures.php')
+            .then(response => response.json())
+            .then(data => {
+                const fixturesContainer = document.getElementById('fixtures');
+                fixturesContainer.innerHTML = ''; // Clear the loading text
+
+                if (data.error) {
+                    // Show error if any
+                    fixturesContainer.innerHTML = `<p style="color: red;">${data.error}</p>`;
+                } else {
+                    // Display fixtures
+                    data.forEach(round => {
+                        const roundDiv = document.createElement('div');
+                        roundDiv.classList.add('round');
+                        roundDiv.innerHTML = `<h3>Round ${round.round}</h3>`;
+
+                        const matchList = document.createElement('ul');
+                        round.matches.forEach(match => {
+                            const matchItem = document.createElement('li');
+                            matchItem.textContent = `${match.home} vs ${match.away}`;
+                            matchList.appendChild(matchItem);
+                        });
+
+                        roundDiv.appendChild(matchList);
+                        fixturesContainer.appendChild(roundDiv);
+                    });
+
+                    // Add round dates
+                    const dateSection = document.createElement('div');
+                    dateSection.innerHTML = "<h3>Round Dates</h3>";
+                    const dateList = document.createElement('ul');
+                    data.forEach((round, index) => {
+                        const dateItem = document.createElement('li');
+                        const date = new Date();
+                        date.setDate(date.getDate() + index + 1); // Example: +1 day per round
+                        dateItem.textContent = `ROUND ${round.round} - ${date.toLocaleDateString()}`;
+                        dateList.appendChild(dateItem);
+                    });
+                    dateSection.appendChild(dateList);
+                    fixturesContainer.appendChild(dateSection);
+                }
+            })
+            .catch(error => {
+                console.error('Error fetching fixtures:', error);
+                document.getElementById('fixtures').innerHTML = `<p style="color: red;">Failed to load fixtures.</p>`;
+            });
+    </script>
+    <!-- Integrated Features Section -->
+    <div class="homepageContainer">
+        <div class="homepageFeatures">
+            <div class="homepageFeature">
+                <span class="featureIcon"><i class="fa fa-dollar"></i></span>
+                <h3 class="featureTitle"> SPONSORS</h3>
+                <p class="featureDescription">For the succes of this tournament we recognise the various sponsors</p>
+            </div>
+            <div class="homepageFeature">
+                <span class="featureIcon"><i class="fa fa-comments"></i></span>
+                <h3 class="featureTitle">REPORT</h3>
+                <p class="featureDescription">Incase of a quaries that you think are needed to addresed please dont be hesitant!</p>
+            </div>
+            <div class="homepageFeature">
+                <span class="featureIcon"><i class="fa fa-globe"></i></span>
+                <h3 class="featureTitle">TOURNAMENT</h3>
+                <p class="featureDescription">Check out previous tournament across diffrent regions of kenya</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Integrated Socials Section -->
+    <div class="socials">
+        <div class="homepageContainer">
+            <h3 class="socialHeader">Say Hi & Get in Touch</h3>
+            <p class="socialText">Phone: +254 759 941 681</p>
+            <div class="socialIconsContainer">
+                <a href=""><i class="fa fa-twitter"></i></a>
+                <a href=""><i class="fa fa-facebook"></i></a>
+                <a href=""><i class="fa fa-pinterest"></i></a>
+                <a href=""><i class="fa fa-google-plus"></i></a>
+                <a href=""><i class="fa fa-linkedin"></i></a>
+                <a href=""><i class="fa fa-youtube"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Integrated Footer -->
+    <div class="footer">
+        <div class="homepageContainer">
+            <a href="">Contact</a>
+            <a href="">Download</a>
+            <a href="">Press</a>
+            <a href="">Email</a>
+            <a href="">Support</a>
+            <a href="">Privacy</a>
+        </div>
+    </div>
+</body>
+</html>
+</body>
+</html>

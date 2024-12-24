@@ -1,0 +1,834 @@
+Received data: Array
+(
+    [0] => Array
+        (
+            [match_id] => undefined
+            [home_score] => 
+            [away_score] => 
+        )
+
+)
+
+Updating Match ID: undefined | Home:  | Away: 
+Total rows updated: 0
+Received data: Array
+(
+    [0] => Array
+        (
+            [match_id] => undefined
+            [home_score] => 
+            [away_score] => 
+        )
+
+)
+
+Updating Match ID: undefined | Home:  | Away: 
+Total rows updated: 0
+Received data: Array
+(
+    [0] => Array
+        (
+            [match_id] => 
+            [home_score] => 
+            [away_score] => 
+        )
+
+    [1] => Array
+        (
+            [match_id] => 
+            [home_score] => 
+            [away_score] => 
+        )
+
+    [2] => Array
+        (
+            [match_id] => 
+            [home_score] => 
+            [away_score] => 
+        )
+
+    [3] => Array
+        (
+            [match_id] => 
+            [home_score] => 
+            [away_score] => 
+        )
+
+    [4] => Array
+        (
+            [match_id] => 
+            [home_score] => 
+            [away_score] => 
+        )
+
+    [5] => Array
+        (
+            [match_id] => 
+            [home_score] => 
+            [away_score] => 
+        )
+
+    [6] => Array
+        (
+            [match_id] => 
+            [home_score] => 
+            [away_score] => 
+        )
+
+    [7] => Array
+        (
+            [match_id] => 
+            [home_score] => 
+            [away_score] => 
+        )
+
+    [8] => Array
+        (
+            [match_id] => 
+            [home_score] => 
+            [away_score] => 
+        )
+
+    [9] => Array
+        (
+            [match_id] => 
+            [home_score] => 
+            [away_score] => 
+        )
+
+    [10] => Array
+        (
+            [match_id] => 
+            [home_score] => 
+            [away_score] => 
+        )
+
+    [11] => Array
+        (
+            [match_id] => 
+            [home_score] => 
+            [away_score] => 
+        )
+
+)
+
+Updating Match ID:  | Home:  | Away: 
+Updating Match ID:  | Home:  | Away: 
+Updating Match ID:  | Home:  | Away: 
+Updating Match ID:  | Home:  | Away: 
+Updating Match ID:  | Home:  | Away: 
+Updating Match ID:  | Home:  | Away: 
+Updating Match ID:  | Home:  | Away: 
+Updating Match ID:  | Home:  | Away: 
+Updating Match ID:  | Home:  | Away: 
+Updating Match ID:  | Home:  | Away: 
+Updating Match ID:  | Home:  | Away: 
+Updating Match ID:  | Home:  | Away: 
+Total rows updated: 0
+Received data: Array
+(
+    [0] => Array
+        (
+            [match_id] => 
+            [home_score] => 1
+            [away_score] => 
+        )
+
+    [1] => Array
+        (
+            [match_id] => 
+            [home_score] => 
+            [away_score] => 4
+        )
+
+    [2] => Array
+        (
+            [match_id] => 
+            [home_score] => 4
+            [away_score] => 
+        )
+
+    [3] => Array
+        (
+            [match_id] => 
+            [home_score] => 
+            [away_score] => 5
+        )
+
+    [4] => Array
+        (
+            [match_id] => 
+            [home_score] => 5
+            [away_score] => 
+        )
+
+    [5] => Array
+        (
+            [match_id] => 
+            [home_score] => 
+            [away_score] => 5
+        )
+
+    [6] => Array
+        (
+            [match_id] => 
+            [home_score] => 
+            [away_score] => 
+        )
+
+    [7] => Array
+        (
+            [match_id] => 
+            [home_score] => 
+            [away_score] => 
+        )
+
+    [8] => Array
+        (
+            [match_id] => 
+            [home_score] => 
+            [away_score] => 
+        )
+
+    [9] => Array
+        (
+            [match_id] => 
+            [home_score] => 
+            [away_score] => 
+        )
+
+    [10] => Array
+        (
+            [match_id] => 
+            [home_score] => 
+            [away_score] => 
+        )
+
+    [11] => Array
+        (
+            [match_id] => 
+            [home_score] => 
+            [away_score] => 
+        )
+
+)
+
+Updating Match ID:  | Home: 1 | Away: 
+Updating Match ID:  | Home:  | Away: 4
+Updating Match ID:  | Home: 4 | Away: 
+Updating Match ID:  | Home:  | Away: 5
+Updating Match ID:  | Home: 5 | Away: 
+Updating Match ID:  | Home:  | Away: 5
+Updating Match ID:  | Home:  | Away: 
+Updating Match ID:  | Home:  | Away: 
+Updating Match ID:  | Home:  | Away: 
+Updating Match ID:  | Home:  | Away: 
+Updating Match ID:  | Home:  | Away: 
+Updating Match ID:  | Home:  | Away: 
+Total rows updated: 0
+Received data: Array
+(
+    [0] => Array
+        (
+            [match_id] => 
+            [home_score] => 1
+            [away_score] => 
+        )
+
+    [1] => Array
+        (
+            [match_id] => 
+            [home_score] => 
+            [away_score] => 4
+        )
+
+    [2] => Array
+        (
+            [match_id] => 
+            [home_score] => 4
+            [away_score] => 
+        )
+
+    [3] => Array
+        (
+            [match_id] => 
+            [home_score] => 
+            [away_score] => 5
+        )
+
+    [4] => Array
+        (
+            [match_id] => 
+            [home_score] => 5
+            [away_score] => 
+        )
+
+    [5] => Array
+        (
+            [match_id] => 
+            [home_score] => 
+            [away_score] => 5
+        )
+
+    [6] => Array
+        (
+            [match_id] => 
+            [home_score] => 
+            [away_score] => 
+        )
+
+    [7] => Array
+        (
+            [match_id] => 
+            [home_score] => 
+            [away_score] => 
+        )
+
+    [8] => Array
+        (
+            [match_id] => 
+            [home_score] => 
+            [away_score] => 
+        )
+
+    [9] => Array
+        (
+            [match_id] => 
+            [home_score] => 
+            [away_score] => 
+        )
+
+    [10] => Array
+        (
+            [match_id] => 
+            [home_score] => 
+            [away_score] => 
+        )
+
+    [11] => Array
+        (
+            [match_id] => 
+            [home_score] => 
+            [away_score] => 
+        )
+
+)
+
+Updating Match ID:  | Home: 1 | Away: 
+Updating Match ID:  | Home:  | Away: 4
+Updating Match ID:  | Home: 4 | Away: 
+Updating Match ID:  | Home:  | Away: 5
+Updating Match ID:  | Home: 5 | Away: 
+Updating Match ID:  | Home:  | Away: 5
+Updating Match ID:  | Home:  | Away: 
+Updating Match ID:  | Home:  | Away: 
+Updating Match ID:  | Home:  | Away: 
+Updating Match ID:  | Home:  | Away: 
+Updating Match ID:  | Home:  | Away: 
+Updating Match ID:  | Home:  | Away: 
+Total rows updated: 0
+Received data: Array
+(
+    [0] => Array
+        (
+            [match_id] => 
+            [home_score] => 1
+            [away_score] => 
+        )
+
+    [1] => Array
+        (
+            [match_id] => 
+            [home_score] => 
+            [away_score] => 4
+        )
+
+    [2] => Array
+        (
+            [match_id] => 
+            [home_score] => 4
+            [away_score] => 
+        )
+
+    [3] => Array
+        (
+            [match_id] => 
+            [home_score] => 
+            [away_score] => 5
+        )
+
+    [4] => Array
+        (
+            [match_id] => 
+            [home_score] => 5
+            [away_score] => 
+        )
+
+    [5] => Array
+        (
+            [match_id] => 
+            [home_score] => 
+            [away_score] => 5
+        )
+
+    [6] => Array
+        (
+            [match_id] => 
+            [home_score] => 
+            [away_score] => 
+        )
+
+    [7] => Array
+        (
+            [match_id] => 
+            [home_score] => 
+            [away_score] => 
+        )
+
+    [8] => Array
+        (
+            [match_id] => 
+            [home_score] => 
+            [away_score] => 
+        )
+
+    [9] => Array
+        (
+            [match_id] => 
+            [home_score] => 
+            [away_score] => 
+        )
+
+    [10] => Array
+        (
+            [match_id] => 
+            [home_score] => 
+            [away_score] => 
+        )
+
+    [11] => Array
+        (
+            [match_id] => 
+            [home_score] => 
+            [away_score] => 
+        )
+
+)
+
+Updating Match ID:  | Home: 1 | Away: 
+Updating Match ID:  | Home:  | Away: 4
+Updating Match ID:  | Home: 4 | Away: 
+Updating Match ID:  | Home:  | Away: 5
+Updating Match ID:  | Home: 5 | Away: 
+Updating Match ID:  | Home:  | Away: 5
+Updating Match ID:  | Home:  | Away: 
+Updating Match ID:  | Home:  | Away: 
+Updating Match ID:  | Home:  | Away: 
+Updating Match ID:  | Home:  | Away: 
+Updating Match ID:  | Home:  | Away: 
+Updating Match ID:  | Home:  | Away: 
+Total rows updated: 0
+Received data: Array
+(
+    [0] => Array
+        (
+            [match_id] => 
+            [home_score] => 1
+            [away_score] => 
+        )
+
+    [1] => Array
+        (
+            [match_id] => 
+            [home_score] => 
+            [away_score] => 4
+        )
+
+    [2] => Array
+        (
+            [match_id] => 
+            [home_score] => 4
+            [away_score] => 
+        )
+
+    [3] => Array
+        (
+            [match_id] => 
+            [home_score] => 
+            [away_score] => 5
+        )
+
+    [4] => Array
+        (
+            [match_id] => 
+            [home_score] => 5
+            [away_score] => 
+        )
+
+    [5] => Array
+        (
+            [match_id] => 
+            [home_score] => 
+            [away_score] => 5
+        )
+
+    [6] => Array
+        (
+            [match_id] => 
+            [home_score] => 
+            [away_score] => 
+        )
+
+    [7] => Array
+        (
+            [match_id] => 
+            [home_score] => 
+            [away_score] => 
+        )
+
+    [8] => Array
+        (
+            [match_id] => 
+            [home_score] => 
+            [away_score] => 
+        )
+
+    [9] => Array
+        (
+            [match_id] => 
+            [home_score] => 
+            [away_score] => 
+        )
+
+    [10] => Array
+        (
+            [match_id] => 
+            [home_score] => 
+            [away_score] => 
+        )
+
+    [11] => Array
+        (
+            [match_id] => 
+            [home_score] => 
+            [away_score] => 
+        )
+
+)
+
+Updating Match ID:  | Home: 1 | Away: 
+Updating Match ID:  | Home:  | Away: 4
+Updating Match ID:  | Home: 4 | Away: 
+Updating Match ID:  | Home:  | Away: 5
+Updating Match ID:  | Home: 5 | Away: 
+Updating Match ID:  | Home:  | Away: 5
+Updating Match ID:  | Home:  | Away: 
+Updating Match ID:  | Home:  | Away: 
+Updating Match ID:  | Home:  | Away: 
+Updating Match ID:  | Home:  | Away: 
+Updating Match ID:  | Home:  | Away: 
+Updating Match ID:  | Home:  | Away: 
+Total rows updated: 0
+Received data: Array
+(
+    [0] => Array
+        (
+            [match_id] => 
+            [home_score] => 1
+            [away_score] => 
+        )
+
+    [1] => Array
+        (
+            [match_id] => 
+            [home_score] => 
+            [away_score] => 4
+        )
+
+    [2] => Array
+        (
+            [match_id] => 
+            [home_score] => 4
+            [away_score] => 
+        )
+
+    [3] => Array
+        (
+            [match_id] => 
+            [home_score] => 
+            [away_score] => 5
+        )
+
+    [4] => Array
+        (
+            [match_id] => 
+            [home_score] => 5
+            [away_score] => 
+        )
+
+    [5] => Array
+        (
+            [match_id] => 
+            [home_score] => 
+            [away_score] => 5
+        )
+
+    [6] => Array
+        (
+            [match_id] => 
+            [home_score] => 5
+            [away_score] => 
+        )
+
+    [7] => Array
+        (
+            [match_id] => 
+            [home_score] => 
+            [away_score] => 5
+        )
+
+    [8] => Array
+        (
+            [match_id] => 
+            [home_score] => 
+            [away_score] => 
+        )
+
+    [9] => Array
+        (
+            [match_id] => 
+            [home_score] => 
+            [away_score] => 
+        )
+
+    [10] => Array
+        (
+            [match_id] => 
+            [home_score] => 
+            [away_score] => 
+        )
+
+    [11] => Array
+        (
+            [match_id] => 
+            [home_score] => 
+            [away_score] => 
+        )
+
+)
+
+Updating Match ID:  | Home: 1 | Away: 
+Updating Match ID:  | Home:  | Away: 4
+Updating Match ID:  | Home: 4 | Away: 
+Updating Match ID:  | Home:  | Away: 5
+Updating Match ID:  | Home: 5 | Away: 
+Updating Match ID:  | Home:  | Away: 5
+Updating Match ID:  | Home: 5 | Away: 
+Updating Match ID:  | Home:  | Away: 5
+Updating Match ID:  | Home:  | Away: 
+Updating Match ID:  | Home:  | Away: 
+Updating Match ID:  | Home:  | Away: 
+Updating Match ID:  | Home:  | Away: 
+Total rows updated: 0
+Received data: Array
+(
+    [0] => Array
+        (
+            [match_id] => 
+            [home_score] => 1
+            [away_score] => 
+        )
+
+    [1] => Array
+        (
+            [match_id] => 
+            [home_score] => 
+            [away_score] => 4
+        )
+
+    [2] => Array
+        (
+            [match_id] => 
+            [home_score] => 4
+            [away_score] => 
+        )
+
+    [3] => Array
+        (
+            [match_id] => 
+            [home_score] => 
+            [away_score] => 5
+        )
+
+    [4] => Array
+        (
+            [match_id] => 
+            [home_score] => 5
+            [away_score] => 
+        )
+
+    [5] => Array
+        (
+            [match_id] => 
+            [home_score] => 
+            [away_score] => 5
+        )
+
+    [6] => Array
+        (
+            [match_id] => 
+            [home_score] => 5
+            [away_score] => 
+        )
+
+    [7] => Array
+        (
+            [match_id] => 
+            [home_score] => 
+            [away_score] => 5
+        )
+
+    [8] => Array
+        (
+            [match_id] => 
+            [home_score] => 
+            [away_score] => 
+        )
+
+    [9] => Array
+        (
+            [match_id] => 
+            [home_score] => 
+            [away_score] => 
+        )
+
+    [10] => Array
+        (
+            [match_id] => 
+            [home_score] => 
+            [away_score] => 
+        )
+
+    [11] => Array
+        (
+            [match_id] => 
+            [home_score] => 
+            [away_score] => 
+        )
+
+)
+
+Updating Match ID:  | Home: 1 | Away: 
+Updating Match ID:  | Home:  | Away: 4
+Updating Match ID:  | Home: 4 | Away: 
+Updating Match ID:  | Home:  | Away: 5
+Updating Match ID:  | Home: 5 | Away: 
+Updating Match ID:  | Home:  | Away: 5
+Updating Match ID:  | Home: 5 | Away: 
+Updating Match ID:  | Home:  | Away: 5
+Updating Match ID:  | Home:  | Away: 
+Updating Match ID:  | Home:  | Away: 
+Updating Match ID:  | Home:  | Away: 
+Updating Match ID:  | Home:  | Away: 
+Total rows updated: 0
+Received data: Array
+(
+    [0] => Array
+        (
+            [match_id] => 
+            [home_score] => 1
+            [away_score] => 
+        )
+
+    [1] => Array
+        (
+            [match_id] => 
+            [home_score] => 
+            [away_score] => 2
+        )
+
+    [2] => Array
+        (
+            [match_id] => 
+            [home_score] => 3
+            [away_score] => 
+        )
+
+    [3] => Array
+        (
+            [match_id] => 
+            [home_score] => 
+            [away_score] => 2
+        )
+
+    [4] => Array
+        (
+            [match_id] => 
+            [home_score] => 2
+            [away_score] => 
+        )
+
+    [5] => Array
+        (
+            [match_id] => 
+            [home_score] => 
+            [away_score] => 
+        )
+
+    [6] => Array
+        (
+            [match_id] => 
+            [home_score] => 1
+            [away_score] => 
+        )
+
+    [7] => Array
+        (
+            [match_id] => 
+            [home_score] => 
+            [away_score] => 4
+        )
+
+    [8] => Array
+        (
+            [match_id] => 
+            [home_score] => 3
+            [away_score] => 
+        )
+
+    [9] => Array
+        (
+            [match_id] => 
+            [home_score] => 
+            [away_score] => 2
+        )
+
+    [10] => Array
+        (
+            [match_id] => 
+            [home_score] => 2
+            [away_score] => 
+        )
+
+    [11] => Array
+        (
+            [match_id] => 
+            [home_score] => 
+            [away_score] => 4
+        )
+
+)
+
+Updating Match ID:  | Home: 1 | Away: 
+Updating Match ID:  | Home:  | Away: 2
+Updating Match ID:  | Home: 3 | Away: 
+Updating Match ID:  | Home:  | Away: 2
+Updating Match ID:  | Home: 2 | Away: 
+Updating Match ID:  | Home:  | Away: 
+Updating Match ID:  | Home: 1 | Away: 
+Updating Match ID:  | Home:  | Away: 4
+Updating Match ID:  | Home: 3 | Away: 
+Updating Match ID:  | Home:  | Away: 2
+Updating Match ID:  | Home: 2 | Away: 
+Updating Match ID:  | Home:  | Away: 4
+Total rows updated: 0

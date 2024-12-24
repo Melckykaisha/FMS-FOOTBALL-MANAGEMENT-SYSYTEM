@@ -1,0 +1,209 @@
+
+
+body {
+    background: url('../images/home.jpg') no-repeat center center fixed;
+    background-size: cover;
+    padding-bottom: 100px;
+    height: 80vh;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: rgba(0, 0, 0, 0.664);
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: orangered;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+    border-radius: 25px;
+    color: whitesmoke;
+}
+
+/* Main Content */
+.main-content {
+    text-align: justify;
+    margin-top: 4rem;
+    margin-left: 700px;
+
+}
+
+.main-content h1 {
+    font-size: 6.0rem;
+    color: orangered;
+    margin-bottom: -2.5rem;
+    font-weight: bold;
+}
+
+.main-content h2 {
+    font-size: 2.5rem;
+    color: orangered;
+    font-weight: lighter;
+}
+
+.main-content p {
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+    color: #ffffff;
+    font-family: arial;
+    font-weight: lighter;
+    padding: 1px;
+}
+
+h3 {
+    color: orangered;
+    text-align: center;
+    font-size: 2.0rem;
+}
+
+#fixtures {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 15px auto;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+#fixtures .round {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+#fixtures .round h3 {
+    color: orangered;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 9px;
+}
+
+#fixtures ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#fixtures ul li {
+    background-color: #333;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+#fixtures ul li:last-child {
+    margin-bottom: 0;
+}
+/* General container for sections */
+.homepageContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Features Section */
+.homepageFeatures {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.homepageFeature {
+    flex: 1 1 30%;
+    max-width: 300px;
+    margin: 10px;
+    padding: 20px;
+    background: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.featureIcon {
+    font-size: 40px;
+    color: #ff5722;
+    margin-bottom: 10px;
+}
+
+.featureTitle {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.featureDescription {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Socials Section */
+.socials {
+    background: #333;
+    color: #fff;
+    padding: 40px 20px;
+}
+
+.socialHeader {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.socialText {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.socialIconsContainer a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 24px;
+    transition: color 0.3s ease;
+}
+
+.socialIconsContainer a:hover {
+    color: #ff5722;
+}
+
+/* Footer Section */
+.footer {
+    background: #222;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer a {
+    color: #ff5722;
+    margin: 0 10px;
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
